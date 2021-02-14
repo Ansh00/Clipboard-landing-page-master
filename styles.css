@@ -1,0 +1,81 @@
+body {
+    line-height: 2;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+  }
+  
+  h4 {
+    font-size: 1.7rem;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: hsl(210, 10%, 33%);
+  }
+  
+  p {
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+  }
+  
+  .bgdesk {
+    position: absolute;
+    top: 0;
+  }
+  .bgdesk1 {
+    display: none;
+  }
+  
+  .buttons {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .button1 {
+    background: hsl(171, 66%, 44%);
+    border-radius: 20px;
+    padding: 12px 35px;
+    margin: 10px;
+    color: white;
+    border: 0;
+  }
+  .button2 {
+    background: hsl(233, 100%, 69%);
+    border-radius: 20px;
+    padding: 12px 35px;
+    margin: 10px;
+    color: white;
+    border: 0;
+  }
+  
+  /* top */
+  .head {
+    margin: 0 auto 100px;
+  
+  }
+  .headlogo {
+    display: block;
+    padding-top: 100px;
+    margin: 0 auto 10px;
+  }
+  .heading {
+    position: relative;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+  }
