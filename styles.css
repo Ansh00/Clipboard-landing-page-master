@@ -151,4 +151,266 @@ body {
     text-align: center;
     margin: 50px auto 100px;
   }
+
+
+  .ending {
+    text-align: center;
+    margin: 20px auto 30px;
+  }
+  .endtxt {
+    width: 45%;
+    margin: 10px auto;
+  }
   
+  /* footer */
+  .footers {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: hsl(200, 12%, 95%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .foot1 {
+    text-align: center;
+  }
+  .foot2{
+    align-self: center;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .foot3 {
+    align-self: center;
+    text-align: center;
+  }
+  .footerlogo{
+    width: 100px;
+  }
+  .social {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  /* button */
+  .button1:hover {
+    background-color: hsl(171, 66%, 50%);
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 100px 2px rgba(0,0,0,0.19);
+  }
+  .button2:hover {
+    background-color: hsl(233, 100%, 75%);
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 20px 100px 2px rgba(0,0,0,0.19);
+  }
+  
+  @media (max-width:1190px) {
+  
+    .mid2{
+      display: grid;
+      grid-template-columns: auto;
+      grid-gap: 50px;
+      margin: 50px auto 100px;
+  
+    }
+    .comp {
+      position: static;
+      display: block;
+      width: 700px;
+      margin: 10px auto;
+    }
+    .midtext{
+      padding-top: 1px;
+      position: static;
+      display: block;
+      margin: 10px auto;
+      width: 60%;
+      text-align: center;
+    }
+    .devices {
+      width: 700px;
+    }
+  
+  }
+  
+  @media (max-width:880px) {
+  
+    .mid2{
+      display: grid;
+      grid-template-columns: auto;
+      grid-gap: 50px;
+      margin: 50px auto 100px;
+  
+    }
+  
+    .comp {
+      position: static;
+      display: block;
+      width: 500px;
+      margin: 10px auto;
+    }
+  
+    .midtext{
+      padding-top: 1px;
+      position: static;
+      display: block;
+      margin: 10px auto;
+      width: 60%;
+      text-align: center;
+    }
+    .devices {
+      width: 500px;
+      margin: 70px auto 10px;
+    }
+  
+  }
+  
+  @media (max-width:550px) {
+    body{
+      position: relative;
+      text-align: center;
+    }
+    h4 {
+      display: block;
+      margin: 10px auto;
+      width: 80%;
+    }
+  
+    .bgdesk{
+      display: none;
+    }
+    .bgdesk1{
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .button1 {
+      width: 300px;
+    }
+    .button2 {
+      width: 300px;
+    }
+  
+    /* top */
+    .headlogo {
+      display: block;
+      padding-top: 100px;
+      margin: 0 auto 10px;
+    }
+    .heading {
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .button1 {
+      display: block;
+      margin: 10px auto;
+    }
+    .button2 {
+      display: block;
+      margin: 10px auto;
+    }
+  
+    /* middle */
+    .mid1 {
+      text-align: center;
+      width: 80%;
+      margin: 100px auto;
+    }
+  
+    .mid2{
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto;
+      margin: 10px auto 50px;
+    }
+    .comp {
+      position: static;
+      display: block;
+      margin: auto;
+      width: 300px;
+    }
+    .midtext{
+      position: static;
+      display: block;
+      width: 55%;
+      margin: auto;
+      padding: inherit;
+      text-align: center;
+      bottom: auto;
+    }
+    .midtext2 {
+      width: 90%;
+    }
+  
+    .mid3txt {
+      width: 75%;
+    }
+  
+    .devices {
+      width: 300px;
+      margin: 50px auto 10px;
+    }
+  
+    .mid5 {
+      margin: 50px auto 100px;
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto;
+      grid-gap: 10px;
+    }
+    .ico {
+      width: 50px;
+      margin: 20px auto 0;
+    }
+    .mid5txt {
+      width: 75%;
+      margin-bottom: 20px;
+    }
+  
+    .mid6 {
+      display: grid;
+      grid-template-columns: auto;
+      grid-row-gap: 50px;
+      text-align: center;
+      margin: 50px auto 100px;
+    }
+  
+    .endtxt {
+      width: 75%;
+    }
+  
+    /* footer */
+   
+    .footers {
+      margin-top: 100px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: hsl(200, 12%, 95%);
+      display: grid;
+      grid-template-columns: auto;
+      grid-row-gap: 40px;
+    }
+    .foot1 {
+      text-align: center;
+    }
+    .foot2{
+      align-self: center;
+      grid-gap: 10px;
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .foot3 {
+      align-self: center;
+      text-align: center;
+    }
+    .footerlogo{
+      width: 100px;
+    }
+    .social {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  
+  }
